@@ -1,0 +1,469 @@
+/*************************
+-2-3 colors max
+-16px font in body
+-2-3 fonts max
+-use cool fonts & icons (see bookmarks)
+Fonts:
+-Stoke
+-Stardos Stencil
+-Gabriela
+
+Color Key:
+light blue: #718EA4;
+next blue darker: #496D89;
+"white" blue: #AAB8C3;
+"white" : #EEF8FF;
+*************************/
+
+/*************************
+GENERAL STYLING
+**************************/
+
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 100%;
+}
+
+.content {
+	margin: 0 auto; 
+	min-width: 100%;
+}
+
+/*************************
+HOME PAGE
+**************************/
+
+
+
+h2 {
+	font-family:'Stoke', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+/*************************
+HOME PAGE ICON
+**************************/
+
+div.kevinlauraiconwrapper {
+	color: #FFF;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	width: auto;
+	height: auto;
+}
+	
+#name {
+	color: #FFF;
+	letter-spacing: 2%;
+}
+	
+#day {
+	color: #FFF;
+	font-size: 160px;
+	margin-left: -15%;
+	margin-top: -5%;
+}
+
+#st {
+	font-size: 35px;
+	font-family: 'Stoke', sans-serif;
+	margin-left: -7%;
+	margin-top: -19.5%;
+	
+}
+	
+#month {
+	font-size: 105px;
+	font-family: 'Stardos Stencil', sans-serif;
+	margin-left: 14%;
+	margin-top: -11.5%;
+}
+
+h3#year {
+	font-size: 45px;
+	font-family: 'Stoke', sans-serif;
+	margin-left: 6.25%;
+	margin-top: -4.75%;
+	letter-spacing: 2px;
+}
+
+h4#venue {
+	font-size: 23px;
+	margin-left: 10.5%;
+	margin-top: -1%;
+}
+/**************************
+NAVIGATION MENU
+**************************/
+
+#header {
+	width: 100%;
+	background-color: #496D89;
+	opacity: .6;
+	height: 80px;
+	position: fixed;
+	margin-top: 30px;
+}
+
+#nav { 
+	width: 410px;
+	float: right;
+	margin-top: 20px;
+}
+
+#logo a {
+	font-family: 'Gabriela', sans-serif;
+	color: #fff;
+	text-decoration: none;
+	float: left;
+	font-size: 35px;
+	margin-top: 20px;
+	margin-left: 0.5em;
+	font-weight: bold;
+}
+
+#nav ul {
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	list-style: none;
+}
+
+#nav li {
+	margin-top: 9px;
+	float: left;
+	padding-left: 21px;
+}
+
+#nav li a {
+	color: #EEF8FF;
+	opacity: 1;
+	font-size: 16px;
+	text-decoration: none;
+	font-family: 'Stardos Stencil', sans-serif;
+}
+
+#nav li a.active {
+	color: #fff;
+	opacity:1;
+	border-bottom: 2px solid #fff;
+}
+
+#nav li a:hover {
+	color: #fff;
+	opacity:1;
+}
+
+/*************************
+SLIDES
+*************************/
+
+img {
+	max-width: 100%;
+}
+
+/*************************
+HOME PAGE
+*************************/
+
+#home, #rsvp, #registry {
+	width: 100%;
+}
+
+#home {
+	background:url('/Users/laurawalley/Desktop/Kevin & Laura Wedding/Images/test1img.jpg') 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 600px;
+	margin: 0;
+	padding: 200px 0 260px 0;
+	background-size: cover;
+}
+/*************************
+DETAILS PAGE
+*************************/
+
+#details {
+	background-color: #AAB8C3;
+	color: #fff;
+	height: 300px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0;
+}
+
+#whenandwhereheader {
+	font-family:'Stardos Stencil', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}	
+
+.columns {
+	width: 45%;
+	height: 25%;
+	display: inline-block;
+	font-family: 'Gabriela', cursive;
+	margin: 20px 0 20px;
+}
+
+.columns ul li {
+	list-style: none;
+}
+
+.columns span {
+	font-size: 18px;
+	font-weight: bold;
+	color: #496D89;
+}
+
+#when {
+	float: left;
+	text-align: right;
+	padding-right: 2.5%;
+	border-right: 2px solid #fff;
+}
+
+#where {
+	float: right;
+	text-align: left;
+	padding-left: 2.5%;
+}
+
+#where ul {
+	margin-left: -20%;
+}
+	
+#hotelaccommodations {
+	font-family:'Stardos Stencil', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 1em;
+}	
+
+.hidden {
+	position: relative;
+}
+	
+
+#hotels {
+	float: left;
+	text-align: center;
+	padding-right: 2.5%;
+	border-right: 2px solid #fff;
+}
+
+#accommodations {
+	float: right;
+	text-align: center;
+	padding-left: 2.5%;
+}
+
+#hotelaccommodations h4 {
+	font-size: 18px;
+	color: #496D89;
+	margin-left: -20%;
+}
+
+#hotelaccommodations p {
+	font-size: 16px;
+	margin-left: -8%;
+}
+
+/*************************
+RSVP PAGE
+**************************/
+
+#rsvp {
+	background: url('/Users/laurawalley/Desktop/Kevin & Laura Wedding/Images/test2img.jpg') 50% 0 no-repeat fixed;
+	color: #000;
+	height: 600px;
+	margin: 0;
+	padding: 200px 0 260px 0;
+	background-size: cover;
+}
+
+#rsvpheader{
+	text-align: center;
+	color: #496D89;
+	font-family: 'Stardos Stencil', sans-serif;
+}
+
+#rsvpsubheader {
+	text-align: center;
+	color: #496D89;
+	font-family: 'Gabriela', cursive;
+	font-size: 20px;
+}
+
+form {
+	border-radius: 5%;
+	background-color: #fff;
+	background: rgba(204, 204, 204, .75);
+	color: #496D89;
+	font-family: 'Gabriela', cursive;
+	font-size: 16px;
+	margin: 0 auto;
+	text-align: center;
+	width: 30%;
+	padding-top: 2%;
+	padding-left: .45%;
+	padding-right: .45%;
+	padding-bottom: 2%;
+}
+
+#songs {
+	width: 150px;
+	height: 50px;
+	text-align: center;
+}
+
+button {
+	padding: 0;
+}
+
+button a {
+	text-decoration: none;
+}
+
+span {
+	padding: 0 5px;
+}
+/*************************
+THE STORY PAGE
+**************************/
+
+#thestory {
+	background-color: #AAB8C3;
+	color: #fff;
+	height: 600px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+#storyheader {
+	font-family:'Stardos Stencil', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+	margin-top: 170px;
+	padding: 0;
+}	
+
+/*************************
+WORDS TO SWITCH OUT FOR IMAGES IN "THE STORY" SECTION:
+29 PALMS
+RED SOLO CUP
+EYES
+PHONE TEXT-STYLE BORDER
+STARS (FOR 'FATEFUL' PART)
+LAS VEGAS
+THANKSGIVING
+IOWA WINTER SYMBOL- SNOWFLAKE, SNOWMAN, ETC
+SKYPE SYMBOL
+PUPPY
+GATORADE SYMBOL
+RING
+
+BOLD/COOL TEXT FOR:
+-DATES
+-UCSB
+-MARINE CORPS
+-'SECOND TIME'
+*************************/
+
+.storydiv {
+	margin: 0 5px;
+	padding: 0;
+}
+
+.storydiv h4 {
+	font-size: 20px;
+	text-align: center;
+}
+
+.storydiv p {
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+	
+	
+/*************************
+REGISTRY PAGE
+**************************/
+
+#registry {
+	background: url('/Users/laurawalley/Desktop/Kevin & Laura Wedding/Images/test3img.jpg') 50% 0 no-repeat fixed;
+	height: 300px;
+	margin: 0 auto;
+	padding: 250px 0;
+	color: #fff;
+	background-size: cover;
+}
+#registeredheader {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#registrylogowrap {
+	text-align: center;
+}
+
+.registrylogo {
+	height: 100px;
+	text-align: center;
+}
+
+#registrylogowrap ul li {
+	display: inline-block;
+}
+
+/*************************
+FOOTER
+*************************/
+
+#copyright {
+	background-color: #AAB8C3;
+	color: #fff;
+	font-family:"Stardos Stencil", sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+}
+
+
+/***************************
+MEDIA QUERIES
+****************************/
+
+@media screen (max-width: 480px) {
+	div.kevinlauraiconwrapper {
+	width: 10px;
+	height: auto;
+	margin-left: auto;
+	display: block;
+	}
+}
+
+@media screen (max-width: 660px) {
+	div.kevinlauraiconwrapper {
+	width: 50px;
+	height: auto;
+	margin-left: auto;
+	display: block;
+	}
+}
