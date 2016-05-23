@@ -55,49 +55,21 @@ div.kevinlauraiconwrapper {
 	margin: 0 auto;
 	text-align: center;
 	display: block;
-	width: auto;
-	height: auto;
-}
-	
-#name {
-	color: #FFF;
-	letter-spacing: 2%;
-}
-	
-#day {
-	color: #FFF;
-	font-size: 160px;
-	margin-left: -15%;
-	margin-top: -5%;
+	max-width: 300px;
+	max-height: 50px;
+	text-shadow: 2px 2px #496D89;
 }
 
-#st {
-	font-size: 35px;
-	font-family: 'Stoke', sans-serif;
-	margin-left: -7%;
-	margin-top: -19.5%;
-	
-}
-	
-#month {
-	font-size: 105px;
-	font-family: 'Stardos Stencil', sans-serif;
-	margin-left: 14%;
-	margin-top: -11.5%;
+#names {
+	font-size: 2.8em;
 }
 
-h3#year {
-	font-size: 45px;
-	font-family: 'Stoke', sans-serif;
-	margin-left: 6.25%;
-	margin-top: -4.75%;
-	letter-spacing: 2px;
+#date {
+	font-size: 2.25em;
 }
-
-h4#venue {
-	font-size: 23px;
-	margin-left: 10.5%;
-	margin-top: -1%;
+	
+#location {
+	font-size: 1.5em;
 }
 /**************************
 NAVIGATION MENU
@@ -153,7 +125,6 @@ NAVIGATION MENU
 #nav li a.active {
 	color: #fff;
 	opacity:1;
-	border-bottom: 2px solid #fff;
 }
 
 #nav li a:hover {
