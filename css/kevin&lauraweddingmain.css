@@ -55,8 +55,8 @@ div.kevinlauraiconwrapper {
 	margin: 0 auto;
 	text-align: center;
 	display: block;
-	max-width: 300px;
-	max-height: 50px;
+	max-width: 30em;
+	max-height: 15em;
 	text-shadow: 2px 2px #496D89;
 }
 
@@ -421,20 +421,42 @@ FOOTER
 MEDIA QUERIES
 ****************************/
 
-@media screen (max-width: 480px) {
+@media screen (max-width: 660px) {
 	div.kevinlauraiconwrapper {
-	width: 10px;
-	height: auto;
-	margin-left: auto;
-	display: block;
+		width: 5em;
+		height: auto;
+		margin-left: auto;
+		display: block;
+	}
+	
+	#logo a {
+		font-size: 2em;
+		margin: 0;
+		padding: 0;
+		}
+	
+	#nav ul li a {
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		color: #fff;
+	}
+	
+	.content p {
+		font-size: 1em;
+	}
+	
+	.content h2 {
+		font-size: 1.25em;
 	}
 }
 
-@media screen (max-width: 660px) {
+@media screen and (max-width: 660px) {
+
 	div.kevinlauraiconwrapper {
-	width: 50px;
-	height: auto;
-	margin-left: auto;
-	display: block;
+		width: 5em;
+		height: auto;
+		margin-left: auto;
+		display: block;
 	}
 }
